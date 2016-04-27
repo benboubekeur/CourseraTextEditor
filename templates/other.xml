@@ -1,0 +1,13 @@
+<templateSet group="other">
+  <template name="main" value="public static void main(String[] args){&#10;  $END$&#10;}" description="main() method declaration" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="meth" value="public void methode(){&#10;}" description="methode" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
